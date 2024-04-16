@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cardWrapper">
+        <div class="card">
+            <div class="card__content">
+                <div class="card__header">
+                    <h1>Разработка на заказ</h1>
+                    <h2>Выполняем частные заказы <br>
+                        широкого спектра по it разработке.
+                    </h2>
+                </div>
+                <div class="card__sale">
+                    <p>3 300 руб в час</p>
+                </div>
+                <div class="card__price">
+                    <h3>3 000 руб в час</h3>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__content">
+                <div class="card__header">
+                    <h1>SEO оптимизация</h1>
+                    <h2>Работаем с лучшими специалистами <br>
+                        что-бы поднять вас в поисковой <br>
+                        выдаче
+                    </h2>
+                </div>
+                <div class="card__sale">
+                    <p>30 000 руб в месяц</p>
+                </div>
+                <div class="card__price">
+                    <h3> 25 000 руб в месяц</h3>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__content">
+                <div class="card__header">
+                    <h1>Внедрение и сопровождения crm систем</h1>
+                    <h2>
+                        Являемся партнёром Битрикс 24, <br>
+                        работаем с AMO и другими CRM <br>
+                        системами
+                    </h2>
+                </div>
+                <div class="card__sale">
+                    <p>3 200 руб в час</p>
+                </div>
+                <div class="card__price">
+                    <h3>2 900 руб в час</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style type="text/css">
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+        article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+        html{height:100%}
+        body{line-height:1}
+        ol,ul{list-style:none}
+        blockquote,q{quotes:none}
+        blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+        table{border-collapse:collapse;border-spacing:0}
+        .cardWrapper {
+            font-family: "Inter", sans-serif;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card__content {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .card__header {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .card__header h1 {
+            font-size: 24px;
+        }
+        .card__header h2 {
+            font-size: 16px;
+        }
+        .card__sale p {
+            text-decoration: line-through;
+            font-size: 16px;
+        }
+        .card__price {
+            font-size: 24px;
+        }
+        .card {
+            color: white;
+            width: 380px;
+            height: 380px;
+            display: flex;
+            flex-direction: column;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            align-items: center;
+            justify-content: center;
+        }
+        .card:nth-child(1) {
+            background-image: url("./assets/fitrst.svg");
+        }
+        .card:nth-child(2) {
+            background-image: url("./assets/two.svg");
+        }
+        .card:nth-child(3) {
+            background-image: url("./assets/three.svg");
+        }
+    </style>
+</body>
+</html>
